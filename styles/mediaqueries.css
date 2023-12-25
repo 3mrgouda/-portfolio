@@ -1,0 +1,196 @@
+@media screen and (max-width:1024px)
+{
+
+    body{
+        font-size: 18px;
+    }
+    .navbar{
+        margin-top: 5em;
+        flex-direction: column;
+    }
+    .navbar .logo{
+        margin-bottom: 1em;
+    }
+
+    header{
+        flex-direction: column;
+    }
+        header>img{
+        width: 40% ;
+    }
+    #about>.content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content>img{
+        padding: 2em 0 2em 0;
+        width: 40%;
+        border-radius: 5em;
+    }
+    .right_content{
+        width: 80%;
+    }
+    .mainCard{
+        justify-content: space-evenly;
+    }
+    .mainCard .card{
+        margin-right: 1em;
+        width: 40%;
+    }
+    .cardLeft{
+        width: 40%;
+    }
+    .cardRight{
+        width: 40%;
+    }
+    .cardss{
+        width: 40%;
+    }
+    .topCard img{
+        width: 80%;
+    }
+    .cardThree{
+        width:87%;
+        height: 65em;
+    }
+    .cardThree img{
+        width: 90%;
+    }
+    footer p{
+        font-size: 1em;
+    }
+    .emailCard{
+        width: 60%;
+    }
+
+@media screen and (max-width:700px) {
+    .navbar{
+        margin-top: 2em;
+    }
+    .navigation a{
+        font-size: 1em;
+        margin-right:1em;
+    }
+    header{
+        padding-top: 2em;
+    }
+        header>img{
+        width: 90% ;
+    }
+    .content h2{
+        text-wrap: nowrap;
+    }
+    header .btn_content button {
+        font-size: 1em;
+        font-weight: 700;
+        margin-right: .5rem;
+        width: 9em;
+    }
+    header .icons_content {
+    width: 8em;
+    }
+    .content>img{
+     border-radius: 3em;
+    }
+    .card2>p:nth-of-type(2){
+        text-wrap: wrap;
+    }
+    .card{
+        height: 8em;
+    }
+    .right_content{
+        width: 90%;
+    }
+    .right_content>p{
+        word-spacing: 2px;
+    }
+    .M{
+        flex-direction: column;
+        align-items: center;
+    }
+    .l{
+        flex-direction: column;
+    }
+    .cardLeft{
+        width: 80%;
+        margin-bottom:2em ;
+    }
+    .cardRight{
+         width: 80%;
+    }
+    .html{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .html h2{
+        font-size: 1.7em;
+    }
+    .cardLeft>p{
+        text-wrap: nowrap;
+        font-size: 1.5em;
+    }    
+    .cardRight>p{
+        text-wrap: nowrap;
+        font-size: 1.5em;
+    }
+    .topCard{
+        flex-direction: column;
+    }   
+    .cardss{
+        width: 90%;
+    }
+    .cardOne{
+        margin-bottom: 2em;
+    }
+    .cardThree{
+        width: 90%;
+        height: 35em;
+    } 
+    .emailCard{
+      flex-direction: column;
+      width: 80%;
+    }
+    footer p{
+        font-size: .6em;
+    }
+@media screen and (max-width:382px) {
+    body{
+        font-size: 16px;
+    }
+@media screen and (max-width:340px) {
+    body{
+        font-size: 12px;
+    }
+}
+
+    
+}
+
+  @media screen and (min-width:486px) and (max-width:609px) {
+    .cardss>img{
+        width: 70%;
+    }
+    .cardThree>img{
+        width: 70%;
+    }
+}
+@media screen and (min-width:610px) and (max-width:700px) {
+    .cardss>img{
+        width: 60%;
+    }
+    .cardThree>img{
+        width: 60%;
+    }
+}      
+
+    
+}    
+
+   
+
+
+    
+    
+
+}

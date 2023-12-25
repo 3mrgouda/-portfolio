@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+
+}
+
+/* navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .logo {
+  font-size: 1.9em;
+}
+.navigation a {
+  margin-right: 1.6em;
+  font-size: 1.5em;
+
+}
+.navigation a:hover{
+  color: #555555;
+  transition: .3s;
+  border-bottom:solid 2px;
+ }
+/* header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5em;
+}
+
+header img {
+  width: 30%;
+  clip-path: circle();
+}
+
+header .content {
+display: flex;    
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+}
+header .content p {
+  font-size: .9em;
+  font-weight: 600;
+  color: #555555;
+
+}
+header .content p span {
+  color: black;
+  font-weight: 600;
+  font-size: 2.3em;
+  display: inline-block;
+  margin-top: .3em;
+}
+
+
+header h2 {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #555555;
+  margin-top: .5em;
+  margin-bottom: .5em;
+
+}
+.btn_content{
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+header .btn_content button {
+  padding: 1em;
+  border-radius: 2.54em;
+  color: black;
+  background-color: white;
+  font-size: 0.7em;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px black solid;
+}
+header .btn_content button:nth-of-type(2) {
+  background-color: #555555;
+  color: white;
+  border-color: #555555;
+}
+header .btn_content button:nth-of-type(1):hover {
+  background-color: #555555;
+  color: white;
+  transition: 0.5s;
+}
+header .btn_content button:nth-of-type(2):hover {
+  background-color: black;
+  transition: 0.5s;
+}
+header .icons_content {
+  width: 6em;
+  margin-top: 1em;
+    display: inline-block;
+}
+header .icons_content img:nth-of-type(1) {
+  margin-right: 1em;
+}
+
+/* section About me styling */
+#about{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 5em;
+
+}
+
+#about>p{
+  font-size: .8em;
+  color: #555555;
+  padding-top: 2em;
+  
+}
+
+#about>p span {
+  font-size: 3em;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+#about>.content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content>img{
+  border-radius: 2em;
+  width: 30%;
+}
+.right_content{
+  width: 40%;
+}
+.mainCard{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+
+}
+.card{
+  text-align: center;
+  border: solid #555555 1px ;
+  border-radius: 2em;
+  padding: 1em;
+  width: 40%;
+ line-height: 1.3em;
+}
+.card2>p:nth-of-type(2){
+  text-wrap: nowrap;
+}
+  .card>p{
+    font-size: .8em;
+    color: #555555;
+  }
+ .card>img{
+  width: 2em;
+ } 
+
+  .right_content>p{
+    padding-top: 2em;
+font-size: .8em;
+font-weight: 400;
+color: #555555;
+text-align: left;
+line-height: 1.2rem;
+
+ }
+
+#experience{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: .8em;
+  color: #555555;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  
+}
+
+
+
+
+#experience>p span {
+  font-size: 3em;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: .4em;
+  padding-bottom: .8em;
+}
+.M{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.cardLeft{
+  border: 1px solid #555555;
+  border-radius: 2em;
+  width: 35%;
+}
+.cardLeft>p{
+  font-size: 2em;
+  font-weight: 500;
+  padding-top: 1em;
+}
+.cardRight{
+  border: 1px solid #555555;
+  border-radius: 2em;
+width: 35%;
+}
+.cardRight>p{
+  font-size: 2em;
+  font-weight: 500;
+  padding-top: 1em;
+}
+
+.l{
+  display: flex;
+  justify-content: space-evenly;
+}
+.html{
+  padding: 1.5em;
+}
+
+.html img {
+ width: 1.3em;
+}
+.html h2{
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  color: black;
+  font-weight: 600;
+}
+.html p{
+ position: relative;
+ left:1.7em;
+}
+
+/* styling Projects section */
+#projects{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: .8em;
+  color: #555555;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  
+}
+
+#projects>p span {
+  font-size: 3em;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: .4em;
+  padding-bottom: .8em;
+}
+
+.cards p{
+  font-size: 2em;
+  color: black;
+  font-weight: 500;
+}
+
+.aa a{
+  text-decoration: none;
+  border: #555555 solid 1px;
+    border-radius: 2em;
+  padding: 1rem;
+  display: inline-block;
+  width: 5rem;
+    color: black;
+  font-size: .8em;
+  font-weight: 600;
+
+}
+.aa a:hover{
+  background-color: #353535;
+  color: white;
+}
+
+
+.topCard{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.cardss{
+  border: solid #555555 1px;
+  border-radius: 2em;
+  width: 35%;
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topCard img{
+  border-radius: 3em;
+  width:70%;
+}
+.cardThree{
+  width: 80%;
+  border: #555555 1px solid;
+  border-radius: 3em;
+text-align: center;
+height: 70em;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.cardThree img{
+  width: 75%;
+  border-radius: 2em;
+  }
+
+/* styling contact section */
+
+#contact{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: .8em;
+  color: #555555;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  
+}
+
+#contact>p span {
+  font-size: 3em;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: .4em;
+  padding-bottom: .8em;
+}
+
+.emailCard{
+  border: #555555 1px solid;
+  border-radius: 2em;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5em .8em 1.5em .8em;
+  color: black;
+}
+.emailCard p:hover{
+  color: #555555;
+  border-bottom: #555555 1px solid;
+  transition: .5s;
+  cursor: pointer;
+}
+.email img{
+  width: 2em;
+  padding-right: .3em;
+}
+.linkedIn img{
+  width: 1.7em;
+  padding-right: .3em;
+
+}
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+.linkedIn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  font-size: 1.3em;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer p{
+  padding: 3em 0 3em 0;
+  color: #555555;
+  font-size: .8em;
+  
+}
+
+
